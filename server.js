@@ -21,7 +21,10 @@ app.use(session({
     secret: 'someRandomSecretValue',
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
-
+app.get('/style.css', function(req,res)
+{
+    res.sendFile('style.css');
+});
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;

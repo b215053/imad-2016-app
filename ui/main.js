@@ -2,7 +2,7 @@ function loadLoginForm () {
    
     
     // Submit username/password to login
-    var submit = document.getElementById('lbutton');
+    var submit = document.getElementById('loginbtn');
     submit.onclick = function () {
         // Create a request object
         var request = new XMLHttpRequest();
@@ -17,10 +17,10 @@ function loadLoginForm () {
                   submit.value = 'Invalid credentials. Try again?';
               } else if (request.status === 500) {
                   alert('Something went wrong on the server');
-                  submit.value = 'LOGIN';
+                  submit.value = 'Login';
               } else {
                   alert('Something went wrong on the server');
-                  submit.value = 'LOGIN';
+                  submit.value = 'Login';
               }
               loadLogin();
           }  
@@ -38,7 +38,7 @@ function loadLoginForm () {
         
     };
     
-    var register = document.getElementById('rbutton');
+    var register = document.getElementById('registerbtn');
     register.onclick = function () {
         // Create a request object
         var request = new XMLHttpRequest();
@@ -52,7 +52,7 @@ function loadLoginForm () {
                   register.value = 'Registered!';
               } else {
                   alert('Could not register the user');
-                  register.value = 'REGISTER';
+                  register.value = 'Register';
               }
           }
         };

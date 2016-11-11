@@ -77,7 +77,7 @@ function loadLoginForm () {
 }
 
 function loadLoggedInUser (username) {
-    alert("Login Successful! \t Welcome "+username+"!");
+    alert("Login Successful!                            Welcome "+username+"!");
     changediv();
 }
 

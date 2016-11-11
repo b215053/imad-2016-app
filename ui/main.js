@@ -7,7 +7,7 @@ function loadLoginForm () {
         <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
         `;
-    document.getElementById('login_area').innerHTML = loginHtml;
+    
     
     // Submit username/password to login
     var submit = document.getElementById('lbutton');
@@ -25,10 +25,10 @@ function loadLoginForm () {
                   submit.value = 'Invalid credentials. Try again?';
               } else if (request.status === 500) {
                   alert('Something went wrong on the server');
-                  submit.value = 'Login';
+                  submit.value = 'LOGIN';
               } else {
                   alert('Something went wrong on the server');
-                  submit.value = 'Login';
+                  submit.value = 'LOGIN';
               }
               loadLogin();
           }  

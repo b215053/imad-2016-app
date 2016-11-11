@@ -72,5 +72,7 @@ font-family: 'Lobster', cursive;
 }
 #comment_form
 {
-   height:45%; 
+   height:45%;
+   margin-left:200px;
+   margin-top:200px;
 }

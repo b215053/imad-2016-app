@@ -76,6 +76,7 @@ function loadLoginForm () {
 
 function loadLoggedInUser (username) {
     alert("Login Successful! Welcome "+username+"!");
+    changediv();
 }
 
 function loadLogin () {
@@ -85,7 +86,7 @@ function loadLogin () {
         if (request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
                 loadLoggedInUser(this.responseText);
-                changediv();
+                
             } 
             
         }

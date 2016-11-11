@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'b215053',
-    database: 'b215053',
+    user: 'coco98',
+    database: 'coco98',
     host: 'db.imad.hasura-app.io',
     port: '5432',
     password: process.env.DB_PASSWORD
@@ -21,10 +21,7 @@ app.use(session({
     secret: 'someRandomSecretValue',
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
-app.get('/style.css', function(req,res)
-{
-    res.sendFile('style.css');
-});
+
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;
@@ -71,7 +68,7 @@ function createTemplate (data) {
 }
 
 app.get('/', function (req, res) {
-  res.sendFile('first.html');
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 
@@ -89,7 +86,7 @@ app.get('/hash/:input', function(req, res) {
 
 app.post('/create-user', function (req, res) {
    // username, password
-   // {"username": "b215053", "password": "password"}
+   // {"username": "tanmai", "password": "password"}
    // JSON
    var username = req.body.username;
    var password = req.body.password;
@@ -203,7 +200,7 @@ app.post('/submit-comment/:articleName', function (req, res) {
                             if (err) {
                                 res.status(500).send(err.toString());
                             } else {
-                                res.status(200).send('Comment inserted!');
+                                res.status(200).send('Comment inserted!')
                             }
                         });
                 }

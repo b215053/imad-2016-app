@@ -1,7 +1,8 @@
 function changediv()
 {
     var divhtml="<h1><a href='/logout'>Logout</a></h1>";
-    document.getElemntById("login").innerHTML= divhtml;
+    document.getElementById("login").innerHTML= divhtml;
+    
 }
 function loadLoginForm () {
    

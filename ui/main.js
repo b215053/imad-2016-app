@@ -70,7 +70,7 @@ function loadLoginForm () {
 }
 
 function loadLoggedInUser (username) {
-    alert("logged in");
+    alert("LOGGED IN");
 }
 
 function loadLogin () {

@@ -45,6 +45,7 @@ function loadLoginForm () {
         
     };
     
+    
     var register = document.getElementById('registerbtn');
     register.onclick = function () {
         // Create a request object

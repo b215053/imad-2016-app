@@ -61,7 +61,7 @@ function loadLoginForm () {
                   register.value = 'Registered!';
               } else {
                   alert('Could not register the user');
-                  register.value = 'Register';
+                  register.value = 'REGISTER';
               }
           }
         };

@@ -62,7 +62,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: larger;
     
 }
-#button
+#lbutton
 {
     background-color: none;
     border-radius: 5px;
@@ -70,7 +70,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: larger;
     text-decoration: overline;
 }
-#button:hover{
+#lbutton:hover{
     text-decoration: underline;
 }
 #contact{
@@ -78,4 +78,15 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: larger;
     text-decoration: underline;
     text-align: center;
+}
+#rbutton
+{
+    background-color: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-decoration: overline;
+}
+#rbutton:hover{
+    text-decoration: underline;
 }

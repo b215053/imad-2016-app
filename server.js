@@ -32,7 +32,7 @@ function createTemplate (data) {
    <!doctype html>
 <head>
     <title>${title}</title>
-    <link rel="stylesheet" type="text/css" href="all.css">
+    <link rel="stylesheet" type="text/css" href="/ui/all.css">
 <link href="https://fonts.googleapis.com/css?family=Lobster|Six+Caps" rel="stylesheet">
 </head>
 <body>

@@ -1,7 +1,7 @@
-function changediv()
+function changediv(username)
 {
-    var username=""
-    var divhtml="<h1><a href='/logout'>Logout</a></h1>";
+    
+    var divhtml="<h2>Hi, username</h2> <br><h1><a href='/logout'>Logout</a></h1>";
     document.getElementById("login").innerHTML= divhtml;
     
 }
@@ -78,7 +78,7 @@ function loadLoginForm () {
 
 function loadLoggedInUser (username) {
     alert("Login Successful!                            Welcome "+username+"!");
-    changediv();
+    changediv(username);
 }
 
 function loadLogin () {

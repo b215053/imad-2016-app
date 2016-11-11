@@ -1,7 +1,7 @@
 function changediv(user_name)
 {
     
-    var divhtml="<h2>Hi,"+ user_name+"</h2> <br><h1><a href='/logout'>Logout</a></h1><br><br>";
+    var divhtml="<h2>Hi,"+ user_name+"</h2> <br><h1><a href='/logout'>Logout</a></h1><br><br><br><br>";
     document.getElementById("login").innerHTML= divhtml;
     
 }

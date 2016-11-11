@@ -10,7 +10,7 @@ function loadLoginForm () {
     document.getElementById('login_area').innerHTML = loginHtml;
     
     // Submit username/password to login
-    var submit = document.getElementById('login_btn');
+    var submit = document.getElementById('lbutton');
     submit.onclick = function () {
         // Create a request object
         var request = new XMLHttpRequest();
@@ -47,7 +47,7 @@ function loadLoginForm () {
         
     };
     
-    var register = document.getElementById('register_btn');
+    var register = document.getElementById('rbutton');
     register.onclick = function () {
         // Create a request object
         var request = new XMLHttpRequest();

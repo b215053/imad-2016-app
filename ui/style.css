@@ -111,4 +111,7 @@ position:fixed;
      font-family: 'Six Caps', sans-serif;
      font-family: 'Lobster', cursive;
      }
-     
+   #detail
+   {
+       margin-top:50px;
+   }

@@ -49,13 +49,13 @@ font-family: 'Lobster', cursive;
      height:100%;
      width:20%;
      opacity:0.75;
-     position:fixed;
+     position:absolute;
      background-color: gainsboro;
      margin-top: 65px;
      margin-left: -25px;
      text-align: center;
      font-family: 'Six Caps', sans-serif;
-font-family: 'Lobster', cursive;
+     font-family: 'Lobster', cursive;
      font-size: large;
      text-decoration: black;
  }

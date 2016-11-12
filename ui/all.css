@@ -50,7 +50,7 @@ font-family: 'Lobster', cursive;
      width:20%;
      opacity:0.75;
      position:fixed;
-     background-color: whitesmoke;
+     /*background-color: whitesmoke;*/
      margin-top: 65px;
      margin-left: -25px;
      text-align: center;

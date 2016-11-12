@@ -69,7 +69,7 @@ font-family: 'Lobster', cursive;
  margin-left: 225px;
  background-color: whitesmoke; 
  position: fixed;
- 
+ overflow:scroll;
  
 }
 #comment_form

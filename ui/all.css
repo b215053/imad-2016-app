@@ -68,7 +68,7 @@ font-family: 'Lobster', cursive;
  margin-top: 65px;
  margin-left: 225px;
  background-color: whitesmoke; 
- position: relative;
+ position: fixed;
  
  
 }

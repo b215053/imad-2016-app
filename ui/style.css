@@ -90,9 +90,9 @@ font-family: 'Lobster', cursive;
     color:antiquewhite;
 }
 #aboutme-r{
- height:700px;
+ height:650px;
  width:80%;
-/*margin-top: 65px;*/
+margin-top: -650px;
  margin-left: 220px;
 position:absolute;
   

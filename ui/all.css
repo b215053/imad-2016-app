@@ -46,7 +46,7 @@ font-family: 'Lobster', cursive;
  }
  #list
  {
-     
+     height:100%;
      width:20%;
      opacity:0.75;
      position:fixed;

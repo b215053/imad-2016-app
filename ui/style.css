@@ -90,11 +90,11 @@ font-family: 'Lobster', cursive;
     color:antiquewhite;
 }
 #aboutme-r{
- height:100%;
- width:83%;
+ height:700px;
+ width:80%;
 margin-top: 65px;
- margin-left: 225px;
-
+ margin-left: 220px;
+position:absolute;
   
 font-family: 'Six Caps', sans-serif;
 font-family: 'Lobster', cursive;

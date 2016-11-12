@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("/ui/JuMkrp.jpg");
+    background-image: url(http://cdn.wallpapersafari.com/59/77/JuMkrp.jpg);
     position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,10 +64,48 @@ font-family: 'Lobster', cursive;
 {
  height:90%;
  width:83%;
-  opacity: 0.75;
+  opacity: 0.95;
  margin-top: 65px;
  margin-left: 225px;
- background-color: darkgray; 
+ background-color: whitesmoke; 
  position: fixed;
+ 
+}
+#comment_form
+{
+font-family: 'Six Caps', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: large;
+}
+#submit
+{
+    background-color: none;
+    border-radius: 5px;
+    font-family: 'Six Caps', sans-serif;
+font-family: 'Lobster', cursive;
+    font-size: large;
+    text-decoration: overline;
+}
+#submit:hover{
+    text-decoration: underline;
+    background-color: black;
+    color:antiquewhite;
 }
 
+#openpage
+{
+    margin-top:70px;
+    font-size: larger;
+    text-decoration: black;
+    font-family: 'Six Caps', sans-serif;
+font-family: 'Lobster', cursive;
+padding-right: 10px;
+width:997.4px;
+
+}
+#open
+{
+opacity: 1;
+width:1000px;
+height:300px;
+}

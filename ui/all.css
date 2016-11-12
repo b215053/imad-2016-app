@@ -62,13 +62,13 @@ font-family: 'Lobster', cursive;
  }
 #content
 {
- height:100%;
+ 
  width:83%;
   opacity: 0.95;
  margin-top: 65px;
  margin-left: 225px;
  background-color: whitesmoke; 
- position: relative;
+ position: absolute;
  overflow:scroll;
  
 }

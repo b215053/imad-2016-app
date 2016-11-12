@@ -62,7 +62,7 @@ font-family: 'Lobster', cursive;
  }
 #content
 {
- height:90%;
+ height:95%;
  width:83%;
   opacity: 0.95;
  margin-top: 65px;
@@ -77,7 +77,7 @@ font-family: 'Lobster', cursive;
 font-family: 'Six Caps', sans-serif;
 font-family: 'Lobster', cursive;
 font-size: large;
-margin-top:400px;
+margin-top:450px;
 }
 #submit
 {

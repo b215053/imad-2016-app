@@ -91,9 +91,13 @@ font-family: 'Lobster', cursive;
 }
 #aboutme-r{
  width:74%;
-height:700px;   
+height:700px;  
+font-family: 'Six Caps', sans-serif;
+font-family: 'Lobster', cursive;
 }
 #aboutme-l{
     width:25%;
 height:700px;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Lobster', cursive;
 }

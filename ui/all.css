@@ -68,7 +68,7 @@ font-family: 'Lobster', cursive;
  margin-top: 65px;
  margin-left: 225px;
  background-color: whitesmoke; 
- position: fixed;
+ position: absolute;
  
 }
 #comment_form
@@ -85,7 +85,7 @@ font-size: large;
 font-family: 'Lobster', cursive;
     font-size: large;
     text-decoration: overline;
-    margin-top:400px;
+    
 }
 #submit:hover{
     text-decoration: underline;

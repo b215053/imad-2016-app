@@ -90,6 +90,10 @@ font-family: 'Lobster', cursive;
     color:antiquewhite;
 }
 #aboutme-r{
- width:100%;
+ width:74%;
 height:700px;   
+}
+#aboutme-l{
+    width:25%;
+height:700px;
 }

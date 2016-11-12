@@ -48,9 +48,9 @@ font-family: 'Lobster', cursive;
  {
      height:100%;
      width:20%;
-     opacity:0.75;
+     opacity:0.95;
      position:fixed;
-     background-color: gainsboro;
+     background-color: whitesmoke;
      margin-top: 65px;
      margin-left: -25px;
      text-align: center;

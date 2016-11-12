@@ -90,16 +90,25 @@ font-family: 'Lobster', cursive;
     color:antiquewhite;
 }
 #aboutme-r{
- width:74%;
-height:700px;  
+ height:100%;
+ width:83%;
+margin-top: 65px;
+ margin-left: 225px;
+position: absolute;
+  
 font-family: 'Six Caps', sans-serif;
 font-family: 'Lobster', cursive;
 
 }
 #aboutme-l{
-    width:25%;
-height:700px;
-font-family: 'Six Caps', sans-serif;
-font-family: 'Lobster', cursive;
-text-align:center;
+   height:100%;
+     width:20%;
+position:fixed;
+     /*background-color: whitesmoke;*/
+     margin-top: 65px;
+     margin-left: -25px;
+ text-align: center;
+     font-family: 'Six Caps', sans-serif;
+     font-family: 'Lobster', cursive;
+     font-size: large;
 }

@@ -103,7 +103,7 @@ font-family: 'Lobster', cursive;
 #aboutme-l{
    height:700px;
      width:230px;
-
+position:relative;
      /*background-color: whitesmoke;*/
      margin-top: 65px;
      margin-left: -25px;

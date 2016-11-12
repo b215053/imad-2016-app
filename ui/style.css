@@ -94,8 +94,8 @@ font-family: 'Lobster', cursive;
 #aboutme-r{
  height:650px;
  width:75.45%;
-margin-top: -650px;
- margin-left: 200px;
+margin-top: -875px;
+ margin-left: 210px;
 position:absolute;
   
 font-family: 'Six Caps', sans-serif;
@@ -127,4 +127,7 @@ position:relative;
        margin-top: 45px;
     width:190px;
     height:170px;
+   }
+   #aboutme{
+       
    }

@@ -94,7 +94,7 @@ font-family: 'Lobster', cursive;
  width:83%;
 margin-top: 65px;
  margin-left: 225px;
-position: absolute;
+
   
 font-family: 'Six Caps', sans-serif;
 font-family: 'Lobster', cursive;
@@ -103,7 +103,7 @@ font-family: 'Lobster', cursive;
 #aboutme-l{
    height:100%;
      width:20%;
-position:fixed;
+
      /*background-color: whitesmoke;*/
      margin-top: 65px;
      margin-left: -25px;

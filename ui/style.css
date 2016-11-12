@@ -130,5 +130,6 @@ position:relative;
    }
    #aboutme{
       margin-top:30px;
-      text-align:center; 
+      text-align:center;
+      margin-left:-7px;
    }

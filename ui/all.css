@@ -103,12 +103,14 @@ font-family: 'Lobster', cursive;
     font-family: 'Six Caps', sans-serif;
 font-family: 'Lobster', cursive;
 padding-right: 10px;
-width:97%;
+width:100%;
+    padding-left:25px;
 
 }
 #open
 {
 background:solid;
-width:997.4px;
+width:100%;
 height:300px;
+padding-left:20px;
 }

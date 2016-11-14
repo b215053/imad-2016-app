@@ -42,7 +42,7 @@ function loadLoginForm () {
         request.open('POST', '/login', true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({username: username, password: password}));  
-        submit.value = 'Logging in...';
+        submit.value = 'Wait...';
         
     };
     
@@ -73,7 +73,7 @@ function loadLoginForm () {
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({username: username, password: password}));  
-        register.value = 'Registering...';
+        register.value = 'Wait...';
     
     };
 }

@@ -62,7 +62,7 @@ function loadCommentForm () {
         request.open('POST', '/submit-comment/' + currentArticleTitle, true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
-        submit.value = 'Submitting...';
+        submit.value = 'Wait...';
         
     };
 }

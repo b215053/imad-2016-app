@@ -3,7 +3,7 @@ body
     background-image: url("/ui/body.jpg");
     position: absolute;
     
-    background-size: cover;
+   /* background-size: cover;*/
     width: 97%;
 }
 #header
